@@ -257,6 +257,7 @@
                 transform: translateY(6px);
                 opacity: 0;
             }
+
             to {
                 transform: translateY(0);
                 opacity: 1;
@@ -285,6 +286,21 @@
 
         <div class="columns-wrapper">
             <div class="column">
+                <div class="mini-summary">
+                    <div class="summary-row">
+                        <span>Venta GNV:</span>
+                        <span class="summary-val" id="res_s1_gnv">0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Venta POS:</span>
+                        <span class="summary-val" id="res_s1_pos">0.00</span>
+                    </div>
+                    <div class="summary-total">
+                        <div class="cash-label">EFECTIVO CAJA S1</div>
+                        <span class="cash-value" id="res_s1_cash">0.00</span>
+                    </div>
+                </div>
+
                 <div class="col-title t-s1">SURTIDOR 1</div>
 
                 <div class="sub-label">--- COMBUSTIBLE ---</div>
@@ -306,24 +322,24 @@
                     <label>Final</label>
                     <input type="number" id="p1_fin" placeholder="0">
                 </div>
-
-                <div class="mini-summary">
-                    <div class="summary-row">
-                        <span>Venta GNV:</span>
-                        <span class="summary-val" id="res_s1_gnv">0.00</span>
-                    </div>
-                    <div class="summary-row">
-                        <span>Venta POS:</span>
-                        <span class="summary-val" id="res_s1_pos">0.00</span>
-                    </div>
-                    <div class="summary-total">
-                        <div class="cash-label">EFECTIVO CAJA S1</div>
-                        <span class="cash-value" id="res_s1_cash">0.00</span>
-                    </div>
-                </div>
             </div>
 
             <div class="column">
+                <div class="mini-summary">
+                    <div class="summary-row">
+                        <span>Venta GNV:</span>
+                        <span class="summary-val" id="res_s2_gnv">0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Venta POS:</span>
+                        <span class="summary-val" id="res_s2_pos">0.00</span>
+                    </div>
+                    <div class="summary-total">
+                        <div class="cash-label">EFECTIVO CAJA S2</div>
+                        <span class="cash-value" id="res_s2_cash">0.00</span>
+                    </div>
+                </div>
+
                 <div class="col-title t-s2">SURTIDOR 2</div>
 
                 <div class="sub-label">--- COMBUSTIBLE ---</div>
@@ -344,21 +360,6 @@
                 <div class="input-group">
                     <label>Final</label>
                     <input type="number" id="p2_fin" placeholder="0">
-                </div>
-
-                <div class="mini-summary">
-                    <div class="summary-row">
-                        <span>Venta GNV:</span>
-                        <span class="summary-val" id="res_s2_gnv">0.00</span>
-                    </div>
-                    <div class="summary-row">
-                        <span>Venta POS:</span>
-                        <span class="summary-val" id="res_s2_pos">0.00</span>
-                    </div>
-                    <div class="summary-total">
-                        <div class="cash-label">EFECTIVO CAJA S2</div>
-                        <span class="cash-value" id="res_s2_cash">0.00</span>
-                    </div>
                 </div>
             </div>
         </div>
